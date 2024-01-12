@@ -4,52 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" 
-        rel="stylesheet">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <title>Webbshop</title>
 </head>
 <body>
 
     <!-- NAVBAR -->
     <header>
-        <div class="logo">PNS Treasures</div>
+        <div class="logo">Webbshop</div>
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="burger-menu">&#9776;</label>
         <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
+    </header>    
+    
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>PNS Treasures</h1>
+            <p>Discover a world of treasures waiting just for you.</p>
+            <a href="#products" class="hero-button">Explore Now</a>
+        </div>
+    </section>
 
     <!-- SECTION CONTENT - DISPLAY IMAGE AND PRODUCTS -->
     <main>
-        <section>
-            <h2>Section 1</h2>
-            <p>This is the content of section 1.</p>
+        
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+        <section class="products-section">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img class="home-products" src="IMG/Shoe1.jpg" alt="Product 1">
+                <h3>Trendy Sneakers</h3>
+                <p>Elevate your style with our trendy sneakers! These sneakers seamlessly blend fashion and comfort. 
+                    The sleek design transitions effortlessly from street to leisure, making them a versatile addition to your wardrobe.
+                </p>
+                <p>Price: 399 kr</p>
+                <a href="product1.html" class="view-details-btn">View Details</a>
+            </div>
         </section>
 
-        <section>
-            <h2>Section 2</h2>
-            <p>This is the content of section 2.</p>
+        <section class="products-section">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img class="home-products" src="IMG/Shoe2.jpg" alt="Product 1">
+                <h3>Retro-Inspired Canvas Sneakers</h3>
+                <p>Step back in time with a modern twist in our Retro-Inspired Canvas Sneakers! These sneakers pay homage to classic athletic footwear with a contemporary edge. 
+                    The canvas upper, adorned with vintage-inspired details, exudes a nostalgic charm.
+                </p>
+                <p>Price: 499 kr</p>
+                <a href="product1.html" class="view-details-btn">View Details</a>
+            </div>
         </section>
 
-        <section>
-            <h2>Section 3</h2>
-            <p>This is the content of section 3.</p>
+        <section class="products-section">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img class="home-products" src="IMG/Shoe3.jpg" alt="Product 1">
+                <h3>Urban Explorer High-Tops</h3>
+                <p>Embark on a style adventure with our Urban Explorer High-Tops! These sneakers redefine streetwear fashion, featuring a sleek high-top design that commands attention. 
+                    The combination of breathable mesh panels and durable synthetic leather creates a modern look
+                </p>
+                <p>Price: 599 kr</p>
+                <a href="product1.html" class="view-details-btn">View Details</a>
+            </div>
         </section>
+
+        
+    <!-- DIVIDER -->
+    <div class="divider"></div>
+
+        <!-- ABOUT SECTION -->
+    <section class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to PNS Treasures, where we strive to provide you with the latest and trendiest footwear. Our commitment is to blend style with comfort, offering you a unique fashion experience.</p>
+    </section>
+
+    <!-- FEATURED PRODUCTS SECTION -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img class="home-products" src="IMG/FeaturedProduct1.jpg" alt="Featured Product 1">
+            <h3>Stylish High Heels</h3>
+            <p>Elevate your look with our stylish high heels. Perfect for a night out or a special occasion. Stand tall and confident!</p>
+            <p>Price: 799 kr</p>
+            <a href="featured1.html" class="view-details-btn">View Details</a>
+        </div>
+        <!-- Add more featured products if needed -->
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <img src="IMG/customer1.jpg" alt="Customer 1">
+            <p>"I absolutely love the sneakers I bought from PNS Treasures. They are not only stylish but also very comfortable. I get compliments everywhere I go!"</p>
+            <p class="customer-name">- Emily Smith</p>
+        </div>
+        <div class="testimonial">
+            <img src="IMG/customer2.jpg" alt="Customer 2">
+            <p>"The customer service at PNS Treasures is outstanding. They helped me find the perfect pair of shoes, and I couldn't be happier with my purchase!"</p>
+            <p class="customer-name">- John Johnson</p>
+        </div>
+        <!-- Add more testimonials if needed -->
+    </section>
+
+    <!-- LATEST NEWS SECTION -->
+    <section class="latest-news">
+        <h2>Latest News</h2>
+        <article class="news-article">
+            <img src="IMG/news1.jpg" alt="News Article 1">
+            <h3>New Season Arrivals</h3>
+            <p>Explore our latest shoe collection for the upcoming season. Discover new styles and trends to stay fashionable.</p>
+            <a href="news1.html" class="read-more-btn">Read More</a>
+        </article>
+        <!-- Add more news articles if needed -->
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>For inquiries or assistance, feel free to contact us:</p>
+        <div class="contact-details">
+            <p>Email: info@pnstreasures.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <p>We are here to help you find the perfect pair of shoes!</p>
+    </section>
+
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>This is the footer</p>
-    </footer> 
-
-    <script>
-        console.log("HELLO WORLD!")
-    </script>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <p>PNS Treasures</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="#" target="_blank"><img src="IMG/Facebook_Logo_2023.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="IMG/twitter-3-logo-png-transparent.png" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="IMG/Instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <p class="footer-p">&copy; 2024 PNS Treasures. All rights reserved.</p>
+    </footer>
 </body>
 </html>
