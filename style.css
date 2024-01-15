@@ -335,6 +335,7 @@ footer {
         top: 60px;
         left: 0;
         background-color: #333;
+        z-index: 100;
         width: 100%;
         text-align: center;
     }
